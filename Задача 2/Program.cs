@@ -38,5 +38,5 @@ void PrintMatrix(int[,] matr)
     }
 }
 
-if (m > table.GetLength(0)-1 || n > table.GetLength(1)-1) Console.WriteLine("Такого элмемента не существует");
-else Console.WriteLine($"Элемент массива, c индексом {m} {n} это {table[m,n]}");
+if (m > table.GetLength(0) - 1 || n > table.GetLength(1) - 1) Console.WriteLine("Такого элмемента не существует");
+else Console.WriteLine($"Элемент массива, c индексом {m} {n} это {table[m, n]}");
